@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Use this script as follows to compile your openCL code :
+# runGl fileName.cpp
+
+if [ $# -ne 1 ]
+then
+	echo 'error : Filename not specified.'
+	exit
+else
+	g++ `pwd`/$1 -o `basename $1 .cpp`.out -lGL -lGLU -lglut
+fi
