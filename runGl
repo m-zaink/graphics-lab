@@ -9,4 +9,5 @@ then
 	exit
 else
 	g++ `pwd`/$1 -o `basename $1 .cpp`.out -lGL -lGLU -lglut
+	./`basename $1 .cpp`.out
 fi
