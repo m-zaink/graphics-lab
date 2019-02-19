@@ -33,7 +33,7 @@ public:
 
 	void drawPolygon() {
 		glClear(GL_COLOR_BUFFER_BIT);
-		if(top <= 1) {
+		if(top <= 1) 
 			cout << "Error. No points present.";
 			exit(0);
 		}

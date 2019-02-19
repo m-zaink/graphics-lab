@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<GL/glut.h>
+#include <GL/glut.h>
 
 #define MAX_POLY 8
 #define MAX_VER 10
